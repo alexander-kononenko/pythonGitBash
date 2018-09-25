@@ -40,7 +40,7 @@ try:
     # assert (q > 0), 'Not passed'
 
 
-    def test_q():
+    def test_1():
         assert q > 0
 
 

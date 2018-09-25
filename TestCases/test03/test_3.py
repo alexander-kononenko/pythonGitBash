@@ -1,4 +1,5 @@
 import requests as re
+import pytest
 
 print 'Check that user 1 has todo recordings. Use Accert and count recordings'
 try:
@@ -6,13 +7,14 @@ try:
 
     responseTodos = re.get('http://jsonplaceholder.typicode.com/todos', timeout=(1000, 1))
     todosTable = responseTodos.json()
-    q = 0
+    toDoCounter = 0
     for itemTodos in todosTable:
         if itemTodos['userId'] == 1:
-            q += 1
-    print "shtyk", q
-    assert (q > 0), 'Not passed'
-
+            toDoCounter += 1
+    print "User 1 has ", toDoCounter, "to do items"
+    # assert (toDoCounter > 0), 'Not passed'
+    def test_1():
+        toDoCounter > 0
 
 
 
