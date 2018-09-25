@@ -1,0 +1,4 @@
+{
+  "test1.py::test_mytest": true, 
+  "test1.py::test_q": true
+}
