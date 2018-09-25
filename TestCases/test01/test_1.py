@@ -1,4 +1,5 @@
 import requests as re
+import pytest
 
 print 'Count users which contains 5 in zipcode'
 try:
@@ -36,9 +37,10 @@ try:
         if itemTodos['userId'] == 1:
             q += 1
     print "shtyk", q
-    assert (q > 0), 'Not passed'
+    # assert (q > 0), 'Not passed'
 
-
+    def test_q():
+        assert q == 200
 
 
 except re.exceptions.ReadTimeout:
