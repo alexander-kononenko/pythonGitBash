@@ -38,15 +38,11 @@ try:
             q += 1
     print "shtyk", q
     # assert (q > 0), 'Not passed'
-<<<<<<< HEAD:TestCases/test01/test_1.py
-=======
+
 
     def test_q():
         assert q == 200
->>>>>>> a974fb5c924e6b1507a2fb8a35b34405ac604193:TestCases/test01/test_1.py
-
-    def test_q():
-        assert q == 200
+    
 
 
 except re.exceptions.ReadTimeout:
