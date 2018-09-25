@@ -13,7 +13,7 @@ try:
             toDoCounter += 1
     print "User 1 has ", toDoCounter, "to do items"
     # assert (toDoCounter > 0), 'Not passed'
-    def test_1():
+    def test_3():
         toDoCounter > 0
 
 

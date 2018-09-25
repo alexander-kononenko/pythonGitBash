@@ -1,4 +1,5 @@
 import requests as re
+import pytest
 
 print "list with POST from body for used with id=3"
 try:
@@ -9,6 +10,8 @@ try:
         if itemPst['userId'] == 3:
             listPost.append([itemPst['body']])
     print listPost
+    def test_2():
+        listPost != []
 
 
 except re.exceptions.ReadTimeout:
