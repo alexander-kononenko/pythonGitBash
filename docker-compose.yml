@@ -1,0 +1,11 @@
+version: "3.2"
+services:
+  web:
+    build:
+       context: .
+       dockerfile: Dockerfile
+    command: py.test $folder --junitxml=TestCases/test-reports/report.xml
+    volumes:
+    - type: bind
+      source: .
+      target: /data
