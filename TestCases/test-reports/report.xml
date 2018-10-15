@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><testsuite errors="1" failures="0" name="pytest" skips="0" tests="1" time="0.646"><testcase classname="" file="TestCases/test02/test_2.py" name="TestCases.test02.test_2" time="0"><error message="collection failure">import file mismatch:
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="1" failures="0" name="pytest" skips="0" tests="1" time="0.657"><testcase classname="" file="TestCases/test02/test_2.py" name="TestCases.test02.test_2" time="0"><error message="collection failure">import file mismatch:
 imported module &apos;test_2&apos; has this __file__ attribute:
   /Users/alex/pythonGitBash/TestCases/test02/test_2.py
 which is not the same as the test file we want to collect:
