@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/python:3-32bit
+      - image: circleci/python:2.7-stretch-node-browsers-legacy
     steps:
       - checkout
       - run: pip install -U pytest
