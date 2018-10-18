@@ -19,9 +19,7 @@ jobs:
 
     steps:
       - checkout
-      - run: mkdir /data
-      - run: cd data
-    
+      
 
       # Download and cache dependencies
       - restore_cache:
