@@ -19,8 +19,6 @@ jobs:
 
     steps:
       - checkout
-      - run: pip install -U pytest
-      - run: pip install -U requests
       - run: mkdir /data
       - run: cd data
     
