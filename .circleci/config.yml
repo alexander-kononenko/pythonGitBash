@@ -19,6 +19,10 @@ jobs:
 
     steps:
       - checkout
+      - run: sudo pip install -U pytest
+      - run: sudo pip install -U requests
+      - run: py.test $folder --junitxml=TestCases/test-reports/report.xml
+
       
 
            # run tests!
